@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: sans-serif;
+  }
+  
+  .container {
+    width: 800px;
+    box-shadow: 0 0 20px #bfbfbf;
+    margin: 3% auto;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5%;
+  }
+  
+  .header h1 {
+    margin: 3%;
+    width: 800px;
+    text-align: center;
+    color:#ffffff;
+    background:#f54242;
+  }
+  
+  .header .new_input {
+    font-size: 20px;
+    width: 425px;
+    border: 1px solid;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    line-height: normal;
+    padding: 6px;
+  }
+  
+  .header .new_btn {
+    font-size: 20px;
+    height: 40px;
+    width: 65px;
+    cursor:pointer;
+    border: 1px solid;
+    border-left: none;
+    border-radius: 0 5px 5px 0;
+    background: rgb(216, 213, 213);
+    background:#429ef5;
+  }
+  
+  .list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1% 13% 1% 12%;
+    padding-bottom: 5%;
+  }
+  
+  .list [class^="listchild"] {
+    border-bottom: 2px dotted #bfbfbf;
+    /* margin: 0 0 3% 0; */
+  }
+  
+  .list [class^="check"] {
+    margin: auto 1%;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+  
+  .list input[type="text"] {
+    font-size: 20px;
+    width: 425px;
+    height: 36px;
+    border-style: none;
+    background: #fff;
+    cursor: auto;
+    padding: 6px;
+  }
+  
+  .list [class^="edit_btn"] {
+    font-size: 20px;
+    height: 40px;
+    width: 65px;
+    border-style: none;
+    border-radius: 50%;
+    margin: 15px 13px 5px 13px;
+  }
+  
